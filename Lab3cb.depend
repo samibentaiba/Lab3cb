@@ -1,0 +1,54 @@
+# depslib dependency file v1.0
+1745099718 source:/home/sami/Documents/Lab/Lab3cb/books.c
+	<stdbool.h>
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+	"books.h"
+
+1745099718 /home/sami/Documents/Lab/Lab3cb/books.h
+	<stdbool.h>
+	<string.h>
+
+1745099511 source:/home/sami/Documents/Lab/Lab3cb/categorys.c
+	"books.h"
+	<stdbool.h>
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+	"categorys.h"
+
+1745098726 /home/sami/Documents/Lab/Lab3cb/categorys.h
+	<stdbool.h>
+	"books.h"
+
+1745099511 source:/home/sami/Documents/Lab/Lab3cb/response.c
+	"categorys.h"
+	"books.h"
+	<stdbool.h>
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+	"response.h"
+
+1745099398 /home/sami/Documents/Lab/Lab3cb/response.h
+	<stdbool.h>
+	<string.h>
+	"categorys.h"
+	"books.h"
+
+1745099559 source:/home/sami/Documents/Lab/Lab3cb/main.c
+	"tests.h"
+
+1745100214 /home/sami/Documents/Lab/Lab3cb/tests.h
+
+1745099511 source:/home/sami/Documents/Lab/Lab3cb/tests.c
+	"categorys.h"
+	"response.h"
+	"books.h"
+	<stdbool.h>
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+	"tests.h"
+
